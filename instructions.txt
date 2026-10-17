@@ -1,0 +1,33 @@
+
+*** Code document link 
+https://docs.langchain.com/oss/python/langchain/quickstart 
+
+Steps for code :
+
+1)Install dependencies-Install the following packages to follow along: 
+uv python pin 3.11
+uv init
+uv add langchain
+uv sync
+
+2) Set up API keys-Get an API key from any supported model provider (for example, Google Gemini or OpenAI).
+Set the API keys in your shell or in a .env file, for example:
+create .env file 
+GOOGLE_API_KEY=""
+
+
+Code- 
+uv add langchain
+uv add langchain-google_genai 
+uv add python-dotenv 
+
+*Run llm.py file
+open terminal 
+python llm.py 
+
+
+*GitHub link
+https://github.com/YogeshRaje/GP_LLM.git
+
+
+
